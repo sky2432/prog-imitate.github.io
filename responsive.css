@@ -1,0 +1,73 @@
+@media (min-width: 768px){
+  header .fas {
+    display: none;
+  }
+
+  .menu{
+    display: block;
+    display: flex;
+  }
+  
+  .menu a {
+    color: white;
+    display: block;
+    padding: 0 25px;
+    line-height: 65px;
+    transition: all 0.5s;
+  }
+  
+  .menu a:hover{
+    background-color: rgba(255,255,255,0.3);
+  }
+
+  .main-wrapper{
+    text-align: center;
+  }
+
+  .main-wrapper h1{
+    font-size: 45px;
+  }
+
+  .main-wrapper p {
+    font-size: 16px;
+  }
+
+  .btn{
+    width:180px;
+  }
+
+  .facebook{
+    margin-right: 15px;
+  }
+
+  .twitter{
+    margin: 0;
+  }
+
+  .lesson-wrapper h2 {
+    font-size: 24px;
+  }
+
+  .lesson-wrapper > .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lesson{
+    width: 50%;
+  }
+
+  footer{
+    text-align: left;
+  }
+}
+
+@media(min-width: 993px){
+  .lesson-wrapper > .container{
+    flex-direction: row;
+  }
+
+  .lesson{
+    width: 25%;
+  }
+}
