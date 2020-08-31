@@ -57,7 +57,7 @@ header span{
 }
 
 .main-wrapper{
-  background-image: url(img/top.png);
+  background-image: url(top.png);
   background-size: cover;
   color:white;
   padding-top: 180px;
